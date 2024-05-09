@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Canine Heart Scoring Project</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+      <!-- Five -->
+      <section class="wrapper style1 align-center">
+        <div class="inner">
+          <h2>Canine Heart Scoring Project</h2>
+          <p>
+            The goal of this project was to assist veterinarians in measuring the heart size of canines. This is an
+            important job because an enlarged heart can indicate the presence of heart disease. The manual annotation
+            process used by veterinarians is quite tedious, so my group applied machine learning techniques to assist
+            in the process.
+          </p>
+          <p>
+            In this project, my role was to research a way to use machine learning to annotate the radiographs. To do 
+            this, I trained a version of the YOLO-Pose model from Ultralytics to predict the key annotation points. This 
+            involved creating a dataset of pre-annotated points, Formatting the data so that the model could train from it, 
+            and performing statistical analyses on the results. In the end, my annotation model achieved an accuracy of 75 
+            percent over all the key points.
+          </p>
+        </div>
+
+        <div class="image">
+          <h2>Example of Radiograph Annotation</h2>
+          <img src="images/gallery/fulls/Canine.png" alt="" />
+        </div>
+
+        <div>
+          <ul class="actions stacked">
+            <br><br>
+            <li>
+              <a href="index.html#projects" class="button big wide smooth-scroll-middle"
+                >Return to Projects</a
+              >
+            </li>
+          </ul>
+        </div>
+
+      <!-- Footer -->
+      <footer class="wrapper style1 align-center">
+        <div class="inner">
+          <ul class="icons">
+            <li>
+              <a
+                href="http://www.youtube.com/@SuperBbick"
+                class="icon brands style2 fa-youtube"
+                ><span class="label">Youtube Channel</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/brendan-bickford-35002a18a/"
+                class="icon brands style2 fa-linkedin-in"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+            <li>
+              <a href="mailto: bbick@live.ca" class="icon style2 fa-envelope"
+                ><span class="label">Email</span></a
+              >
+            </li>
+          </ul>
+          <p>
+            &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
